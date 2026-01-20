@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Memberships.Api/Memberships.Api.csproj" />
+  <Project Path="Memberships.Application/Memberships.Application.csproj" />
+  <Project Path="Memberships.Domain/Memberships.Domain.csproj" />
+  <Project Path="Memberships.Infrastructure/Memberships.Infrastructure.csproj" />
+</Solution>

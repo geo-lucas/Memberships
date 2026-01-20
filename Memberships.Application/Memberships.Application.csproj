@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Memberships.Domain\Memberships.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Exceptions\" />
+    <Folder Include="Common\Models\" />
+    <Folder Include="Plans\Commands\" />
+    <Folder Include="Plans\Queries\" />
+    <Folder Include="Subscriptions\Commands\" />
+    <Folder Include="Subscriptions\Queries\" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
